@@ -203,7 +203,7 @@ Open index.html
 
 npx serve
 
-🔑** API Key Setup (Important)**
+🔑**API Key Setup (Important)**
 
 The system uses external APIs such as LLMs, telematics providers, communication APIs (SMS/WhatsApp), or map services.
 To protect user security and prevent accidental exposure, all API keys must be stored in a .env file.
