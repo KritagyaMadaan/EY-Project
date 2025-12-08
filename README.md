@@ -1,4 +1,4 @@
-🚀 ###**Autonomous Predictive Bike Maintenance — Agentic AI System**
+🚀 # **Autonomous Predictive Bike Maintenance — Agentic AI System**
 
 🏍️ Prevent Failures Before They Happen: 200–500 km Early
 
@@ -7,7 +7,7 @@ A next-generation agentic AI platform that predicts critical two-wheeler failure
 This system supports individual riders, workshops, fleets, and OEMs, running entirely as a scalable cloud service.
 
 
-⚠️ ###**The Problem (₹198B Lost Annually)**
+⚠️ # **The Problem (₹198B Lost Annually)**
 India’s Two-Wheeler Crisis by the Numbers
 
 124 million riders depend on 2-wheelers daily
@@ -25,7 +25,7 @@ Roadside emergencies → unsafe + expensive + stressful
 Breakdowns are predictable — but today, they are not predicted.
 
 
-🎯###**Proposed Solution: Agentic AI for Predictive Bike Maintenance**
+🎯 # **Proposed Solution: Agentic AI for Predictive Bike Maintenance**
 
 An agentic AI system that predicts failures 200–500 km before they occur using telemetry, driving patterns, and historical data.
 
@@ -46,8 +46,8 @@ Notifies rider + workshop
 Reduces repair cost & eliminates surprise breakdowns
 
 
-🧠 ###**How It Works**
-1️⃣ ##Input Sources
+🧠 # **How It Works**
+1️⃣ ## Input Sources
 
 Telematics / IoT sensor data (temperature, vibration, RPM, speed, GPS)
 
@@ -57,12 +57,12 @@ Service history & warranty data
 
 Environmental factors (dust, humidity, terrain)
 
-2️⃣ ##Processing Pipeline
+2️⃣ ## Processing Pipeline
 📥 Data Ingestion Layer
 
 Streams data from IoT devices, telematics APIs, OBD, or mobile app
 
-⚙️ #Feature Engineering
+⚙️ ### Feature Engineering
 
 Component stress analysis
 
@@ -72,7 +72,7 @@ Time-series features
 
 Environment-adjusted wear factors
 
-🤖 #ML Risk Scoring
+🤖 ### ML Risk Scoring
 
 XGBoost / LightGBM models
 
@@ -80,7 +80,7 @@ Anomaly detection for vibration, heat, noise
 
 Failure-ETA prediction (remaining km before failure)
 
-🧩 #LLM + Agent Layer
+🧩 ### LLM + Agent Layer
 
 LangChain-style agents for decision-making
 
@@ -90,7 +90,7 @@ Auto-service scheduling agent
 
 Diagnostic reasoner: component-level root cause
 
-📤 #Output
+📤 ### Output
 
 Component-wise risk score
 
@@ -100,7 +100,7 @@ Recommended action
 
 Automatic notifications + booking
 
-💻 ###**Tech Stack**
+💻 # **Tech Stack**
 
 Backend
 
@@ -151,7 +151,7 @@ WhatsApp/SMS alerts
 Web dashboard
 
 
-📈 ###**Scalability**
+📈 # **Scalability**
 
 The platform is designed using a microservices + event-driven architecture, enabling:
 
@@ -169,7 +169,7 @@ Predictive models retrain automatically as data grows
 
 Scalability = more bikes, not more complexity.
 
-🧪 ###**Demo / UI Preview**
+🧪 # **Demo / UI Preview**
 ![Adobe Express - Autonomous Predictive Maintainence Video](https://github.com/user-attachments/assets/feb714a2-44d8-4fca-88f4-d8ab041e3884)
 
 ![Adobe Express - Autonomous Predictive Maintainence Video (2)](https://github.com/user-attachments/assets/b911afc8-0795-4661-bb3e-e8273b54a854)
@@ -182,7 +182,7 @@ https://github.com/user-attachments/assets/16364193-4500-4c3e-b5e7-384885e14256
 
 
 
-▶️ ###**Local Setup**
+▶️ # **Local Setup**
 1️⃣ Clone the repository
 git clone https://github.com/yourusername/predictive-bike-maintenance.git
 cd predictive-bike-maintenance
@@ -200,7 +200,7 @@ Open index.html
 
 npx serve
 
-🔑###**API Key Setup (Important)**
+🔑 # **API Key Setup (Important)**
 
 The system uses external APIs such as LLMs, telematics providers, communication APIs (SMS/WhatsApp), or map services.
 To protect user security and prevent accidental exposure, all API keys must be stored in a .env file.
