@@ -72,22 +72,6 @@ Or embed:
 ![Adobe Express - Autonomous Predictive Maintainence Video (2)](https://github.com/user-attachments/assets/8d1179b8-5329-47d7-8819-50f0d51d90ff)
 
 
-
-📁 Folder Structure
-├── index.html
-├── assets/
-│   ├── images/
-│   ├── animations/
-│   ├── styles/
-├── scripts/
-│   ├── engine-visualizer.js
-│   ├── fleet-scanner.js
-│   ├── predictive-model.js
-├── data/
-│   ├── sample-telemetry.json
-│   ├── fleet-info.json
-├── README.md
-
 ⚡ How It Works
 1. Scan Fleet
 
