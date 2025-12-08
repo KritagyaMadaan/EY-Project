@@ -25,7 +25,7 @@ Roadside emergencies → unsafe + expensive + stressful
 Breakdowns are predictable — but today, they are not predicted.
 
 
-🎯** Proposed Solution: Agentic AI for Predictive Bike Maintenance**
+🎯**Proposed Solution: Agentic AI for Predictive Bike Maintenance**
 
 An agentic AI system that predicts failures 200–500 km before they occur using telemetry, driving patterns, and historical data.
 
@@ -203,44 +203,69 @@ Open index.html
 
 npx serve
 
-🔑** API Key Setup (Important — Place at the End)**
+🔑** API Key Setup (Important)**
 
-Different parts of the system may use external APIs (LLMs, telematics, mapping, communication).
-Users must add their own API keys.
+The system uses external APIs such as LLMs, telematics providers, communication APIs (SMS/WhatsApp), or map services.
+To protect user security and prevent accidental exposure, all API keys must be stored in a .env file.
 
-📍 Where to put your API key
+📍 Where to store your API keys
 
-Your key goes into:
+Create a file in the project root:
 
-/scripts/config.js
-
-Example:
-// scripts/config.js
-
-export const CONFIG = {
-    OPENAI_KEY: "YOUR_API_KEY_HERE",
-    OTHER_API_KEY: "",
-};
-
-📋 Template file (recommended)
-
-Provide:
-
-scripts/config.example.js
-
-export const CONFIG = {
-    OPENAI_KEY: "PUT_YOUR_API_KEY_HERE",
-};
-
-
-Users then run:
-
-cp scripts/config.example.js scripts/config.js
-
-⚠️ Do NOT commit real API keys
-
-Add to .gitignore:
-
-config.js
 .env
 
+
+Add your keys inside:
+
+OPENAI_API_KEY=your_openai_key_here
+
+
+You can add as many keys as needed.
+
+🛠️ How the backend loads environment variables
+Python backend (FastAPI / Flask)
+
+Environment variables are automatically loaded using:
+
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+OPENAI_KEY = os.getenv("OPENAI_API_KEY")
+
+
+Or through frameworks that load them automatically.
+
+🌐 How the frontend gets access (secure method)
+
+⚠️ The frontend must NOT directly contain API keys.
+
+Instead:
+
+Frontend → calls your backend API
+
+Backend → loads key from .env
+
+Backend → makes the actual external API request
+
+This keeps all API keys safe and prevents exposure in browser code.
+
+📋 Provide a .env.example file
+
+Include in your repo:
+
+.env.example
+
+
+Contents:
+
+OPENAI_API_KEY=PUT_YOUR_KEY_HERE
+
+
+Users copy it:
+
+cp .env.example .env
+
+
+Then fill in their values.
