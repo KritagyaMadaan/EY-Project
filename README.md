@@ -12,57 +12,111 @@ AI-Driven Fleet Brain for Real-Time Vehicle Health Monitoring
 
 
 
-📌 Overview
+🔑 API Key Setup (IMPORTANT)
 
-The Autonomous Predictive Maintenance System is an AI-powered platform designed to continuously monitor, diagnose, and predict the health of vehicles in a fleet. Using real-time telemetry, ML models, and an intuitive visual interface, the system helps reduce breakdowns, optimize maintenance cycles, and improve fleet reliability.
+If your project uses an external API (OpenAI, Gemini, Map APIs, IoT Cloud APIs, etc.), users must add their own API key.
 
-This project demonstrates:
-✔️ Autonomous fleet scanning
-✔️ Real-time health diagnosis
-✔️ Predictive maintenance alerts
-✔️ Intuitive mechanic-friendly UI
-✔️ Smart visualization of engine components
+✅ Where to put the API key
+
+Inside the project, locate the file:
+
+/scripts/config.js
+
+
+In that file, replace the placeholder with your own API key:
+
+// scripts/config.js
+
+export const CONFIG = {
+    API_KEY: "YOUR_API_KEY_HERE",   // ← Replace with your key
+    MODEL: "your-model-name",       // Optional
+};
+
+If config.js does not exist yet
+
+Create it:
+
+/scripts/config.js
+
+
+And add:
+
+export const CONFIG = {
+    API_KEY: "YOUR_API_KEY_HERE",
+};
+
+⚠️ WARNING — Do NOT commit real keys
+
+To protect users:
+
+.gitignore should include:
+
+config.js
+.env
+
+
+Add a template file instead:
+
+config.example.js
+
+export const CONFIG = {
+    API_KEY: "PUT_YOUR_API_KEY_HERE",
+};
+
+
+Users copy this:
+
+cp scripts/config.example.js scripts/config.js
+
+
+And then insert their own key locally.
 
 🎯 Features
-🔍 1. Autonomous Fleet Scanning
 
-Automatically detects all active vehicles in the fleet.
-
-Displays driver & vehicle details (e.g., name, ID, registration).
-
-🧠 2. Fleet Brain – AI Engine
-
-Uses ML models to evaluate engine parameters.
-
-Predicts upcoming failures (battery, engine, brakes, etc.).
-
-Prevents downtime using intelligent alerts.
-
-⚙️ 3. Visual Breakdown of Vehicle Health
-
-Real-time 3D-like visualization of critical components (e.g., engine, gearbox).
-
-Animated overlays highlighting parts under stress.
-
-🧰 4. Mechanic-Optimized UI
-
-Clean, distraction-free interface for technicians.
-
-Uses simple colors and animations for quick diagnostics.
-
-📡 5. Edge-Ready Telemetry Integration
-
-Supports IoT sensor data.
-
-Can plug into Arduino/ESP32/Raspberry Pi based sensor feeds.
+✔️ Autonomous fleet scanning
+✔️ Real-time vehicle diagnostics
+✔️ Predictive maintenance alerts
+✔️ Animated engine visualization
+✔️ Lightweight and mechanic-friendly UI
+✔️ IoT-ready telemetry pipeline
 
 🛠️ Tech Stack
-Area	Technologies
-Frontend	HTML, CSS, JavaScript, Canvas Animations
-Backend (optional)	Node.js / Flask / FastAPI
-AI/ML Models	Predictive maintenance ML pipelines
-IoT Sensors	Vibration, temperature, RPM, GPS, OBD-II
-Deployment	GitHub Pages / Local server / Edge device
+
+Frontend: HTML, CSS, JavaScript
+
+Visualization: Canvas/Web Animations
+
+AI/ML: Predictive models
+
+Optional Backend: Node.js / Python
+
+IoT Sensors Supported: RPM, vibration, temperature, OBD-II
+
+⚡ Setup Instructions
+1️⃣ Clone repo
+git clone https://github.com/yourusername/autonomous-predictive-maintenance.git
+cd autonomous-predictive-maintenance
+
+2️⃣ Add your API key
+
+Copy template:
+
+cp scripts/config.example.js scripts/config.js
+
+
+Edit config.js and insert your API key.
+
+3️⃣ Run locally
+
+Just open:
+
+index.html
+
+
+Or run a simple server:
+
+npx serve
+
 
 
 🎬 Demo
