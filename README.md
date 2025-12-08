@@ -63,6 +63,8 @@ Backend (optional)	Node.js / Flask / FastAPI
 AI/ML Models	Predictive maintenance ML pipelines
 IoT Sensors	Vibration, temperature, RPM, GPS, OBD-II
 Deployment	GitHub Pages / Local server / Edge device
+
+
 🎬 Demo
 
 Include your video or GIF here:
