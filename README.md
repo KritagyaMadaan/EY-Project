@@ -1,11 +1,11 @@
 🚀 Autonomous Predictive Maintenance System
 AI-Driven Fleet Brain for Real-Time Vehicle Health Monitoring
 ![Adobe Express - Autonomous Predictive Maintainence Video](https://github.com/user-attachments/assets/82d747db-3fe7-46cc-b4b4-6e97b3298bf9)
-![Adobe Express - Autonomous Predictive Maintainence Video (2)](https://github.com/user-attachments/assets/8d1179b8-5329-47d7-8819-50f0d51d90ff)
 
 
 
-https://github.com/user-attachments/assets/4b53c20c-97be-46b4-813b-e78f51897636
+
+
 
 
 
@@ -64,12 +64,14 @@ Deployment	GitHub Pages / Local server / Edge device
 
 Include your video or GIF here:
 
-/assets/Autonomous_Predictive_Maintenance.gif
+[/assets/Autonomous_Predictive_Maintenance.gif](https://github.com/user-attachments/assets/4b53c20c-97be-46b4-813b-e78f51897636)
 
 
 Or embed:
 
-![Autonomous Fleet Brain Demo](assets/demo.gif)
+![Adobe Express - Autonomous Predictive Maintainence Video (2)](https://github.com/user-attachments/assets/8d1179b8-5329-47d7-8819-50f0d51d90ff)
+
+
 
 📁 Folder Structure
 ├── index.html
