@@ -131,16 +131,3 @@ Integration with AWS IoT / GCP IoT Core
 
 Advanced LLM-powered mechanic assistant
 
-🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-Feel free to open a PR.
-
-📄 License
-
-This project is licensed under the MIT License.
-
-🧑‍💻 Author
-
-Your Name
-If you want, I can add: LinkedIn, Portfolio, Email, Website.
