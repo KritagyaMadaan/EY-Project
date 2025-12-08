@@ -1,4 +1,4 @@
-![Adobe Express - Autonomous Predictive Maintainence Video (2)](https://github.com/user-attachments/assets/8178a424-e18b-486a-8d36-f5cf72bbbed0)🚀 Autonomous Predictive Maintenance System
+🚀 Autonomous Predictive Maintenance System
 AI-Driven Fleet Brain for Real-Time Vehicle Health Monitoring
 
 
