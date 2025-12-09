@@ -194,7 +194,9 @@ Scalability = more bikes, not more complexity.
 
 
  # **Local Setup**
+
 1️⃣ Clone the Repository
+
 git clone https://github.com/KritagyaMadaan/Claude-project.git
 cd Claude-project
 
@@ -209,6 +211,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 
 
 3️⃣  Create virtual environment (optional but recommended)
+
 python3 -m venv venv  
 source venv/bin/activate
 
