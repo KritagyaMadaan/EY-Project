@@ -194,22 +194,39 @@ Scalability = more bikes, not more complexity.
 
 
 ▶️ # **Local Setup**
-1️⃣ Clone the repository
-git clone https://github.com/yourusername/predictive-bike-maintenance.git
-cd predictive-bike-maintenance
+1️⃣ Clone the Repository
+git clone https://github.com/KritagyaMadaan/Claude-project.git
+cd Claude-project
 
-2️⃣ Install backend dependencies
-pip install -r requirements.txt
+2️⃣ Create a .env File for Secrets / API Keys
 
-3️⃣ Run backend
-python api/predictive_service.py
+Create a .env file in the project root. Example:
 
-4️⃣ Start frontend
+# .env
+OPENAI_API_KEY=your_openai_api_key_here
 
-Open index.html
-—or—
+⚠️ Important: Ensure .env is listed in .gitignore, so you don’t accidentally commit sensitive keys.
 
-npx serve
+
+3️⃣ # Create virtual environment (optional but recommended)
+python3 -m venv venv  
+source venv/bin/activate
+
+# Install dependencies
+pip install flask flask-cors langgraph langchain langchain-openai gTTS xgboost pandas numpy joblib
+
+
+4️⃣ Start Backend API Server
+Run  pyton app.py
+
+Your backend will run at:
+http://localhost:5000
+
+5️⃣ Run Frontend 
+Open okok.html directly in your browser
+
+Double-click:
+okok.html
 
 🔑 # **API Key Setup (Important)**
 
