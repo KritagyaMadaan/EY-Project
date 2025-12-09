@@ -212,7 +212,7 @@ OPENAI_API_KEY=your_openai_api_key_here
 python3 -m venv venv  
 source venv/bin/activate
 
-# Install dependencies
+Install dependencies
 pip install flask flask-cors langgraph langchain langchain-openai gTTS xgboost pandas numpy joblib
 
 
