@@ -37,7 +37,7 @@ Roadside emergencies → unsafe + expensive + stressful
 Breakdowns are predictable — but today, they are not predicted.
 
 
-🎯 # **Proposed Solution: Agentic AI for Predictive Bike Maintenance**
+#🎯 **Proposed Solution: Agentic AI for Predictive Bike Maintenance**
 
 An agentic AI system that predicts failures 200–500 km before they occur using telemetry, driving patterns, and historical data.
 
