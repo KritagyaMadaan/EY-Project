@@ -1,7 +1,10 @@
+🧪 # **Working project Demo / UI Preview**
 
 https://github.com/user-attachments/assets/16364193-4500-4c3e-b5e7-384885e14256
 
 ![Adobe Express - Autonomous Predictive Maintainence Video (2)](https://github.com/user-attachments/assets/b911afc8-0795-4661-bb3e-e8273b54a854)
+
+![Adobe Express - Autonomous Predictive Maintainence Video](https://github.com/user-attachments/assets/feb714a2-44d8-4fca-88f4-d8ab041e3884)
 
 🚀 # **Autonomous Predictive Bike Maintenance — Agentic AI System**
 
@@ -174,8 +177,7 @@ Predictive models retrain automatically as data grows
 
 Scalability = more bikes, not more complexity.
 
-🧪 # **Demo / UI Preview**
-![Adobe Express - Autonomous Predictive Maintainence Video](https://github.com/user-attachments/assets/feb714a2-44d8-4fca-88f4-d8ab041e3884)
+
 
 
 ▶️ # **Local Setup**
