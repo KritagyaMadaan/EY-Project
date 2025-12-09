@@ -183,7 +183,8 @@ Scalability = more bikes, not more complexity.
 
 **Backend UI**
 
-<img width="1408" height="736" alt="Gemini_Generated_Image_ij7yamij7yamij7y" src="https://github.com/user-attachments/assets/8dea3dcf-6ca7-44b5-ace3-01c1d0bbbe45" />
+
+<img width="1408" height="736" alt="Gemini_Generated_Image_ej8lraej8lraej8l (1)" src="https://github.com/user-attachments/assets/2ad92f37-d05d-40a8-9712-49d51ba8bbbb" />
 
 
 
