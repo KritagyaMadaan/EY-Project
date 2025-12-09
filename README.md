@@ -183,11 +183,11 @@ Predictive models retrain automatically as data grows
 
 Scalability = more bikes, not more complexity.
 
-#**Frontend UI**
+# **Frontend UI**
 
 ![Adobe Express - Autonomous Predictive Maintainence Video (2)](https://github.com/user-attachments/assets/b911afc8-0795-4661-bb3e-e8273b54a854)
 
-#**Working Backend**
+# **Working Backend**
 
 
 <img width="1408" height="736" alt="Gemini_Generated_Image_ej8lraej8lraej8l (1)" src="https://github.com/user-attachments/assets/2ad92f37-d05d-40a8-9712-49d51ba8bbbb" />
