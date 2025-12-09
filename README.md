@@ -59,6 +59,7 @@ Reduces repair cost & eliminates surprise breakdowns
 
 
  # **How It Works**
+
 1️⃣ Input Sources
 
 Telematics / IoT sensor data (temperature, vibration, RPM, speed, GPS)
@@ -70,6 +71,7 @@ Service history & warranty data
 Environmental factors (dust, humidity, terrain)
 
 2️⃣ Processing Pipeline
+
 📥 Data Ingestion Layer
 
 Streams data from IoT devices, telematics APIs, OBD, or mobile app
