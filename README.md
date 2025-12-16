@@ -199,7 +199,7 @@ Scalability = more bikes, not more complexity.
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/KritagyaMadaan/Claude-project.git
+git clone https://github.com/KritagyaMadaan/EY-Project.git
 cd Claude-project
 
 2️⃣ Create a .env File for Secrets / API Keys
